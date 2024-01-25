@@ -10,9 +10,9 @@ More information on the modules used:
 Examples:
 
 The output image in __Test_Galaxies_color_Aplpy.py__ code.
-![width="200"](Files/2MASX_J00413620-0859339_DesiLegacy-zrg_2.png)
-:--:
-*The 2MASX J00413620-085933 galaxy in zrg color.* 
+<img src="Files/2MASX_J00413620-0859339_DesiLegacy-zrg_2.png" width="200">
+| *The 2MASX J00413620-085933 galaxy in zrg color.* |
+
 
 The output image in __Test_Galaxy_color_overlay_contours_Aplpy.py__ code. The SDSS J235619.93-101246.2 galaxy in irg color with [HI](https://en.wikipedia.org/wiki/Hydrogen_line) contours.
 
