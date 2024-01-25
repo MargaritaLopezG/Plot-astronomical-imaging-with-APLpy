@@ -10,11 +10,11 @@ More information on the modules used:
 Examples:
 
 <p>The output image in Test_Galaxies_color_Aplpy.py code.<br>
-<img src="2MASX_J00413620-0859339_DesiLegacy-zrg_2.png" width="200"><br>
+<img src="Files/2MASX_J00413620-0859339_DesiLegacy-zrg_2.png" width="200"><br>
 The 2MASX_J00413620-0859339 galaxy in zrg color.<br>
 
 <p>The output image in Test_Galaxy_color_overlay_contours_Aplpy.py code.<br>
-<img src="2MASX_J00413620-0859339_DesiLegacy-zrg_2.png" width="200"><br>
+<img src="Files/A2670_38_irg_cont_mom0_v3.png" width="200"><br>
 The SDSS J235619.93-101246.2 galaxy in irg color with [HI](https://en.wikipedia.org/wiki/Hydrogen_line) conbtours.<br>
 
 Both images were taken from [López-Gutiérrez, M. M. et al., 2022](https://ui.adsabs.harvard.edu/abs/2022MNRAS.517.1218L/abstract)
