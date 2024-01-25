@@ -11,7 +11,7 @@ Examples:
 
 The output image in __Test_Galaxies_color_Aplpy.py__ code. <em>Composite zrg color image of 2MASX J00413620-085933 galaxy. </em>
 <p align="center">
-<img src="Files/2MASX_J00413620-0859339_DesiLegacy-zrg_2.png" width="200">
+<img src="Files/2MASX_J00413620-085933_DesiLegacy-zrg_2.png" width="200">
 </p>
 
 
