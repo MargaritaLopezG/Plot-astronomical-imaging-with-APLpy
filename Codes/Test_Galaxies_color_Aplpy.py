@@ -1,3 +1,5 @@
+## Code created by Martha Margarita López Gutiérrez ##
+
 import aplpy
 import numpy
 import matplotlib
