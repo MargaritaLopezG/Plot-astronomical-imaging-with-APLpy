@@ -10,6 +10,12 @@ from astropy.wcs import WCS
 from astropy.io import fits
 from skimage.transform import resize
 
+# Coordinate base image (HI moment 0)
+filename = 'Files/A2670_G38_bDSS2_2.fits'
+hdu = fits.open(filename)[0]
+wcs = WCS(hdu.header)
+image_data = hdu.data
+#hdu.header # see header
 
 # Create a figure and a set of subplot
 fig = plt.figure(figsize=(8.2,8))
@@ -19,13 +25,6 @@ plt.subplots_adjust(left=0.15, bottom=0.12, right=1.1, top=0.98, wspace=0.1, hsp
 # Produce a 'rgu color image' from three bands of astronomical images 
 rgu = ['Files/A2670_G38_iPanS_2.fits','Files/A2670_G38_rPanS_2.fits', 'Files/A2670_G38_gPanS_2.fits']
 aplpy.make_rgb_image(rgu,'Files/output/A2670_G38_color.png', vmin_b=0., vmax_b=18., vmin_g=0., vmax_g=50., vmin_r=0., vmax_r=88.)
-
-# Coordinate base image (HI moment 0)
-filename = 'Files/A2670_G38_mom0_b2.fits'
-hdu = fits.open(filename)[0]
-wcs = WCS(hdu.header)
-image_data = hdu.data
-#hdu.header # see header
 
 # Set the background image 
 img = plt.imread('Files/output/A2670_G38_color.png')
